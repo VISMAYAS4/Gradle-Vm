@@ -124,7 +124,7 @@ public class CustomerService implements ICustomerService{
 		}
 		return customers;
 	}
-	
+	//
 	//viewAllCustomer returns list of customers by vehicle type
 	@Override
 	public List<Customer> viewAllCustomer(String vtype) {
